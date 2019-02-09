@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
             return `old bay${string.substr(1)}`;
           }
           else{
-            if(string.startsWith("th") || string.startsWith("sh") || string.startsWith("ch")){
+            if(string.startsWith("th") || string.startsWith("sh") || string.startsWith("ch") || string.startsWith("sm") || string.startsWith("ll") || string.startsWith("sp") || string.startsWith("ph") || string.startsWith("gn") || string.startsWith("st") || string.startsWith("qu") || string.startsWith("cz") || string.startsWith("ps")){
               return `old b${string.substr(2)}`;
             }
             else{
