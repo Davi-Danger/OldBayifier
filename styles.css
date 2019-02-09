@@ -49,7 +49,7 @@ h1 {
     color: white;
     grid-column: auto auto;
     grid-column: span 2;
-    overflow: scroll;
+    overflow: hide;
 }
 #output{
     margin-top: 15%;
